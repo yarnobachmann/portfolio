@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #393939 url("../img/texure.png") no-repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+label {
+    font-size: 20px;
+    font-family: "yarno";
+    letter-spacing: 1px;
+}
+
+
+.navbar {
+    margin-bottom: -2px;
+    border-bottom: -2px;
+}
+
+label {
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+#naamlog {
+    font-family: yarnologo;
+    font-size: 30px;
+}
+
+.form-spacing-top {
+    margin-top: 4px;
+}
+
+.form-spacing-top-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 42px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#contact {
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: yarno;
+    src: url(../fonts/Baloo-Regular.ttf);
+}
+
+@font-face {
+    font-family: yarnologo;
+    src: url(../fonts/Zoon-Hoot.otf);
+}

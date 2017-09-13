@@ -276,6 +276,20 @@ Image credits: unsplash.com
     src: url(../fonts/Zoon-Hoot.otf);
 }
 
+@font-face {
+    font-family: backto;
+    src: url(../fonts/PressStart2P.ttf);
+}
+
+.backto {
+  font-family: backto;
+  font-size: 10px;
+}
+
+.backto:hover {
+  color: orange;
+}
+
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;

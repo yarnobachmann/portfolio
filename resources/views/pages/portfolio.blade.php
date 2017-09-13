@@ -32,6 +32,7 @@
 
         </ul>
         <ul class="nav navbar-nav navbar-right">
+            <li><a href="{{ url('80s') }}"><span class="backto" >back to the 80s</span></a></li>
             <li><a href="{{ url('ronay') }}"><i class="fa fa-youtube-play" aria-hidden="true"></i>Ronay</a></li>
 
         </ul>

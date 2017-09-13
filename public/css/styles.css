@@ -35,7 +35,7 @@ p{
 }
 
 .stage {
-    background: url('../img/stageAfbl.jpg')center center no-repeat;
+    background: black url('../img/stageAfbl.jpg') center center no-repeat;
     margin: 0px;
     width: 100%;
     background-size: cover;

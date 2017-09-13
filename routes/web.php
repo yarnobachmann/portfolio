@@ -22,3 +22,7 @@ Route::post('contact', 'PagesController@postContact');
 Route::get('/portfolio', 'PagesController@getPortfolio');
 
 Route::get('/ronay', 'PagesController@getRonay');
+
+Route::get('80s', function () {
+    return view('pages.80');
+});

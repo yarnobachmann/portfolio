@@ -500,3 +500,19 @@ Image credits: unsplash.com
 .modalnr1 .middle:hover{
   opacity: 1;
 }
+
+@media only screen and (max-width: 400px){
+  .thumbnail.right-caption > img {
+      max-width: 300px;
+  }
+  .footer-center {
+    position: absolute;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  #btn {
+    font-size: 8px;
+  }
+}

@@ -45,7 +45,6 @@ p{
     justify-content: center;
     background-attachment: scroll;
     height: 100%;
-    overflow-x: hidden;
 }
 
 .stage-caption {
@@ -167,6 +166,46 @@ hr {
     color: #fff;
     font-size: 30px;
 }
+}
+
+@media screen and (max-height: 660px) {
+
+#logo {
+  width: 15%;
+}
+.display-3 {
+    font-size: 40px;
+}
+
+.stage-caption p {
+    font-size: 15px;
+}
+
+.social li a {
+    color: #fff;
+    font-size: 30px;
+}
+}
+
+@media screen and (max-height: 400px) {
+
+#logo {
+  display: none;
+}
+
+.display-3 {
+    font-size: 35px;
+}
+
+.stage-caption p {
+    font-size: 12px;
+}
+
+.social li a {
+    color: #fff;
+    font-size: 20px;
+}
+
 }
 
 #naam {

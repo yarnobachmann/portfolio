@@ -231,7 +231,7 @@
        Ben je geïnteresseerd stuur dan gerust een e-mail.
       </p>
 
-      <p class="padding-p"><a href="{{ url('contact') }}" class="btn" role="button">stuur een e-mail</a> </p>
+      <p class="padding-p"><a href="{{ url('contact') }}" id="btn" class="btn" role="button">stuur een e-mail</a> </p>
 
     </div>
   </div>

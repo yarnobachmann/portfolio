@@ -39,12 +39,16 @@
   </div><!-- /.container-fluid -->
 </nav>
         @include('partials._messages')
-<div class="container-fluid">
-
-
 <h1 class="col-md-12 text">Mail mij:</h1>
 
-<div class="row col-md-12" id="contact">
+<div class="container">
+
+
+
+
+
+
+<div class="row col-md-12 well" id="contact">
 
 {!! Form::open() !!}
 
@@ -63,4 +67,5 @@
 
 </div>
 </div>
+
 @endsection

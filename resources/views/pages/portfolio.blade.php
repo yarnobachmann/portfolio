@@ -106,9 +106,9 @@
         </div>
 
         <div class="one-third column">
-         <h1>Programeren</h1>
+         <h1>Programmeren</h1>
          <p>
-          Ik programeer met HTML (5), CSS (3) en een vleugje JavaScript. Ik kan ook werken met front-end en back-end frameworks zoals Bootstrap en Laravel.
+          Ik programmeer met HTML (5), CSS (3) en een vleugje JavaScript. Ik kan ook werken met front-end en back-end frameworks zoals Bootstrap en Laravel.
          </p>
         </div>
 
@@ -227,7 +227,7 @@
       <h1>Samen Werken of inhuren?</h1>
 
       <p class="padding-p">
-       Ik ben in te huren om een website voor jou te gaan maken, ook wil ik samen werken met andere programeurs aan een project.
+       Ik ben in te huren om een website voor jou te gaan maken, ook wil ik samen werken met andere programmeurs aan een project.
        Ben je geïnteresseerd stuur dan gerust een e-mail.
       </p>
 

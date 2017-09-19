@@ -1,5 +1,9 @@
 html,
 body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     height: 100%;
     width: 100%;
 
@@ -16,6 +20,14 @@ a {
     font-size: 20px;
     font-family: "yarno";
     letter-spacing: 1px;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .spacing-top {

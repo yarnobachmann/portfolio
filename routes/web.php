@@ -26,3 +26,8 @@ Route::get('/ronay', 'PagesController@getRonay');
 Route::get('80s', function () {
     return view('pages.80');
 });
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
